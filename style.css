@@ -6,14 +6,14 @@ font-family: 'Raleway', sans-serif;
 300 400 500 900 (normal + italic)
 */
 
-
+/* -------- Universal Reset --------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Temporary Styles
+/* ----------------Temporary Styles---------------------
 
 * {
     padding: 0.5rem;
@@ -30,7 +30,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
  */
 
-/* End of temporary styles */
+/* --------End of temporary styles --------------*/
+
+
 .tall-50 {min-height: 50vh;}
 .tall-60 {min-height: 60vh;}
 .tall-70 {min-height: 70vh;}
@@ -53,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .center {text-align: center;}
 .right  {text-align: right;}
 
-/* Typography */
+/* -----------------------Typography ---------------------------*/
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -114,7 +116,7 @@ a:hover{
     padding-left: 1rem;
 }
 
-/* Footer */
+/* --------------------------------Footer --------------------------*/
 
 footer h2 {
     font-size: 6rem;
@@ -125,7 +127,7 @@ footer p {
     margin-bottom: 0.2rem;
 }
 
-/* Backgrund Images */
+/* -------------------------------Backgrund Images -----------------------*/
 
 .bg-image {
     background-color: #24282B;
@@ -166,7 +168,8 @@ footer p {
     background-position: 50% 17%;
 }
 
-/* Media adaptation to mobile */
+/* -----------------------Media adaptation to mobile --------------------*/
+
 @media(max-width: 48em){
     .hide-sm {display: none;}
 
